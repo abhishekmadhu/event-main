@@ -27,7 +27,7 @@
               }
 
               function startTimer() {
-                  setInterval(displayNextImage, 3000);
+                  setInterval(displayNextImage, 5000);
               }
 
               var images = [], x = -1;
@@ -72,35 +72,34 @@
                   <span class="icon-bar"></span>
                 </button>
                 <!-- <a class="navbar-brand" href="#"><img id="logo" src="https://image.flaticon.com/icons/svg/61/61624.svg"></img></a> -->
-                <a class="navbar-brand" href="https://abhishekmadhu.github.io/">Abhishek Madhu</a>
+                <div class="site-branding">
+                    <a class="logo" href="index.html">
+                        
+                        <!-- logo image  -->
+                        <img src="assets/images/logo.png" style="height: 38px; width: 80px;" alt="Logo">
+
+                        <!-- EVENTSandBYOND -->
+                    </a>
+                </div>
               </div>
 
               <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                  <li><a href="https://abhishekmadhu.github.io/"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a></li>
-                  <li><a href="/about/about.html"><i class="fas fa-info-circle"></i>  About</a></li>
-                  <li class="active"><a href="/blog/blog.html"><i class="fas fa-clipboard"></i>  Blogs</a></li>
-                  <li><a href="/contact/contact.html"><i class="fas fa-address-book"></i>   Contact</a></li>
+              <div class="collapse navbar-collapse" id="navbar-items">
+                  <ul class="nav navbar-nav navbar-right">
+
+                      <!-- navigation menu -->
+                      <li><a data-scroll href="#new">What's New?</a></li>
+                      <li><a data-scroll href="#about">About</a></li>
+                      <li><a data-scroll href="#speakers">Speakers</a></li>              
+                      <li><a data-scroll href="#schedule">Schedule</a></li>                  
+                      <!-- <li><a data-scroll href="#partner">Partner</a></li>                   -->
+                      <!-- <li><a data-scroll href="#">Sponsorship</a></li> -->
+                      <li><a data-scroll href="#faq">FAQ</a></li>
+                      <li><a data-scroll href="#photos">Photos</a></li>
+                      <li><a data-scroll href="#register">Register</a></li>
+                      <li><a data-scroll href="#location">Locate Us</a></li>
                   
-                </ul>
-                
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#">AddMe <i class="fas fa-user-plus"></i></a></li>
-                  <li><a href="#">Resume <i class="fas fa-download"></i></a></li>
-                  <!-- 
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">Action</a></li>
-                      <li><a href="#">Another action</a></li>
-                      <li><a href="#">Something else here</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="#">Separated link</a></li>
-                    </ul> 
-                -->
-                  </li>
-                </ul>
+                  </ul>
               </div>
             </div>
           </nav>
