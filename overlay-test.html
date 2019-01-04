@@ -6,30 +6,48 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Overlay</title>
 
+	<link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/other.css">
+
 	<style type="text/css">
-		#two{
-			color: red;
-			max-height: 40vh;
-			max-width: 80px;
+		img{
+			height: 80vh;
+			width: 100%;
 		}
 
-		#three{
-			height: 20px;
-			width: 10px;
+		.image-container {
+ 			position: relative;
+  			text-align: center;
+			color: white;
+		}
+
+		#site-header{
+			background: red;
+		}
+
+
+		.centered{
+			background: lightgray;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			font-size: 2em;
 		}
 	</style>
 
 </head>
 <body>
 
-	<div id="three">
-		<div><img src="image3.jpg"></div>
-	</div>
-
-	<div id="two">
-		<div><img src="image2.jpg"></div>
-	</div>
-
+	<header id="site-header" class="site-header valign-center">
+		<div>
+			<img src="image3.jpg" class="image-container">
+			<div id="insider-demo" class="centered">
+				<p>Hello</p>
+			</div>
+		</div>
+	</header>
 	
 </body>
 </html>
