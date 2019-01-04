@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <title>change picture</title>
+
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+      <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
+      <link rel="stylesheet" href="assets/css/main.css">
+      <link rel="stylesheet" href="assets/css/other.css">
+
+      <script type = "text/javascript">
+          function displayNextImage() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("site-header").style.backgroundImage = images[x];
+          }
+
+          function displayPreviousImage() {
+              x = (x <= 0) ? images.length - 1 : x - 1;
+              document.getElementById("site-header").style.backgroundImage = images[x];
+          }
+
+          function startTimer() {
+              setInterval(displayNextImage, 3000);
+          }
+
+          var images = [], x = -1;
+          images[0] = "url(image1.jpg)";
+          images[1] = "url(image2.jpg)";
+          images[2] = "url(image3.jpg)";
+      </script>
+
+      <style type="text/css">
+        #img{
+          width: 100%;
+          height: 100vh;
+        }
+      </style>
+
+   </head>
+
+   <body onload = "startTimer()">
+    <header id="site-header" class="site-header valign-center"> 
+        <div class="intro">
+
+            <h2>EVENTS & BYOND</h2>
+            
+            <h1>AN ASAP TECHNOLOGIES VENTURE</h1>
+            
+            <p>THE FUTURE BELONGS TO THOSE WHO BELIEVE IN THE BEAUTY OF THEIR DREAMS</p>
+            
+            <!-- <a class="btn btn-white" data-scroll href="#registration">Register Now</a> -->
+        
+        </div>
+    </header>       
+    <button type="button" onclick="displayPreviousImage()">Previous</button>
+       <button type="button" onclick="displayNextImage()">Next</button>
+   </body>
+</html>

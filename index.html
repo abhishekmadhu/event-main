@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Events&Byond</title>
+
+    <!-- css -->
+    <!-- <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/other.css">
+    <!--  -->
+
+    <script type = "text/javascript">
+        function displayNextImage() {
+            x = (x === images.length - 1) ? 0 : x + 1;
+            document.getElementById("img").src = images[x];
+        }
+
+        function displayPreviousImage() {
+            x = (x <= 0) ? images.length - 1 : x - 1;
+            document.getElementById("img").src = images[x];
+        }
+
+        function startTimer() {
+            setInterval(displayNextImage, 10000);
+        }
+
+        var images = [], x = -1;
+        images[0] = "image1.jpg";
+        images[1] = "image2.jpg";
+        images[2] = "image3.jpg";
+    </script>
+
+    <style type="text/css">
+      #site-header{
+        width: 100%;
+        height: 100vh;
+      }
+    </style>
+
+</head>
+
+
+
+
+<body data-spy="scroll" data-target="#site-nav">
+
+    <!-- NAVBAR -->
+
+    <!-- ----------  NAVBAR  ----------- -->
+
+          <nav class="navbar navbar-default navbar-fixed-top" style="margin-bottom: 0px">
+            <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <!-- <a class="navbar-brand" href="#"><img id="logo" src="https://image.flaticon.com/icons/svg/61/61624.svg"></img></a> -->
+                <a class="navbar-brand" href="https://abhishekmadhu.github.io/">Abhishek Madhu</a>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a href="https://abhishekmadhu.github.io/"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a></li>
+                  <li><a href="/about/about.html"><i class="fas fa-info-circle"></i>  About</a></li>
+                  <li class="active"><a href="/blog/blog.html"><i class="fas fa-clipboard"></i>  Blogs</a></li>
+                  <li><a href="/contact/contact.html"><i class="fas fa-address-book"></i>   Contact</a></li>
+                  
+                </ul>
+                
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">AddMe <i class="fas fa-user-plus"></i></a></li>
+                  <li><a href="#">Resume <i class="fas fa-download"></i></a></li>
+                  <!-- 
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul> 
+                -->
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <!-- ------------------------ -->
+    
+    <!-- END NAVBAR -->
+    
+
+    <header id="site-header" class="site-header valign-center"> 
+        <div class="intro">
+
+            <h2>EVENTS & BYOND</h2>
+            
+            <h1>AN ASAP TECHNOLOGIES VENTURE</h1>
+            
+            <p>THE FUTURE BELONGS TO THOSE WHO BELIEVE IN THE BEAUTY OF THEIR DREAMS</p>
+            
+            <!-- <a class="btn btn-white" data-scroll href="#registration">Register Now</a> -->
+
+            <div class="two-buttons" id="about-join-btn">
+                <button class="btn btn-primary-outline" id="about-btn">
+                    About
+                </button>
+
+                <button class="btn btn-primary-outline" id="join-btn">
+                    Join
+                </button>
+            </div>
+        
+        </div>
+    </header>
+
+    <section id="new">
+        the new section
+        
+    </section>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+
+                    <h3 class="section-title">About Us</h3>
+
+                    <p>We are a youth run start-up organization in India with student body entities in process of expanding across major cities in India. We have one such established entity in Kolkata, West Bengal which is fully functional now.</p>
+                    <p>The Kolkata entity is also our flagship entity among many more coming up soon! At present we aim to successfully build a strong network of entities across cities to help us expand our impact. With the help of our entities we organize various events like workshops, summits, meetups, etc. <a href="brochure.html">Read More</a></p>
+
+                    <figure>
+                        <img alt="" class="img-responsive" src="assets/images/about-us.jpg">
+                    </figure>
+
+                </div><!-- /.col-sm-6 -->
+
+                <div class="col-sm-6">
+
+                    <h3 class="section-title multiple-title">What is Our Goal?</h3>
+
+                    <p> These aim to help us bring out the positivity and change to make lives of people better and happy! Our primary target is the youth of the country – who are the today and tomorrow of the world we live in. They are the ones of whom the modern society will comprise of so it is important to empower them and make them believe in their passion and themselves.</p>
+
+                    <p>An empowered youth empowers a society and an empowered society empowers a nation – and that is the ultimate picture we want framed!</p>
+
+                    <ul class="list-arrow-right">
+
+                        <li>Learn about Abhishek</li>
+                        <li>Learn to implement his preachings in your life</li>
+                        <li>core benefit from our event 3</li>
+                        <li>core benefit from our event 4</li>
+                        <li>I WILL MAKE THIS EQUAL in height TO THE PICTURE TO THE LEFT</li>
+                    
+                    </ul>
+
+                </div><!-- /.col-sm-6 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section>
+
+    <section id="" class="section bg-image-1 facts text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+
+                    <i class="ion-ios-calendar"></i>
+                    <h3>2018<br>Month date</h3>
+                
+                </div>
+                <div class="col-sm-3">
+
+                    <i class="ion-ios-location"></i>
+                    <h3>Locality<br>Kolkata</h3>
+                
+                </div>
+                <div class="col-sm-3">
+
+                    <i class="ion-pricetags"></i>
+                    <h3>max_no_of<br>Tickets</h3>
+                
+                </div>
+                <div class="col-sm-3">
+                
+                    <i class="ion-speakerphone"></i>
+                    <h3>kitne?<br>Speakers</h3>
+                
+                </div>
+            </div><!-- row -->
+        </div><!-- container -->
+    </section>
+
+    
+
+
+    <!-- 
+    <section id="registration" class="section registration">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Registration &amp; Pricing</h3>
+                </div>
+            </div>
+                
+            <form action="#" id="registration-form">
+                <div class="row">
+                    <div class="col-md-12" id="registration-msg" style="display:none;">
+                        <div class="alert"></div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="First Name" id="fname" name="fname" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Last Name" id="lname" name="lname" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Phone" id="cell" name="cell" required>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Address" id="address" name="address" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Pin Code" id="pin" name="pin" required>
+                        </div>
+
+                        <div class="form-group">
+                            <select class="form-control" name="city" id="city" required>
+                                <option readonly>City</option>
+                                <option>City Name 1</option>
+                                <option>City Name 2</option>
+                                <option>City Name 3</option>
+                                <option>City Name 4</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <select class="form-control" name="program" id="program" required>
+                                <option readonly>Select Your Program</option>
+                                <option>Program Name 1</option>
+                                <option>Program Name 2</option>
+                                <option>Program Name 3</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt20">
+                    <button type="submit" class="btn btn-black" id="registration-submit-btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    -->
+
+    <!--    Attempting to create a "SUBMIT YOUR IDEAS TAB". BUT, Abhishek guarantee nahi le raha hain...
+
+    <section id="contribution" class="section bg-image-2 contribution">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-uppercase mt0 font-400">Submit Your Contribution Work</h3>
+                    
+                    <p>You've inspired new consumer, racked up click-thru's, blown-up brand awareness. We can't give you back the weekends you worked, or erase the pain of being forced to make the logo bigger. But you submit your best work.</p>
+
+                    <a class="btn btn-white" href="#">Submit</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <!-- Please make sure to maintain the datetime in the schedule parts, please yaar -->
+
+    <section id="schedule" class="section schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Event Schedule Highlights</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box">
+                        <div class="time">
+                            <time datetime="09:00">09:00 am</time> - <time datetime="22:00">10:00 am</time>
+                        </div>
+                        <h3>Welcome and intro</h3>
+                        <p>Siddhant Keshri, CEO (E&B)</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box">
+                        <div class="time">
+                            <time datetime="10:00">10:00 am</time> - <time datetime="10:01">10:01 am</time>
+                        </div>
+                        <h3>Tips and share</h3>
+                        <p>Me?, Nocturnal Back-End guy (E&B)</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="schedule-box">
+                        <div class="time">
+                            <time datetime="10:00">10:00 am</time> - <time datetime="22:00">10:00 am</time>
+                        </div>
+                        <h3>Bhojan. Nahi?</h3>
+                        <p>Alibaba Caterers</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- <section id="partner" class="section partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Event Partners</h3>(give me images designed like this for best view)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-1"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-2"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-3"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-4"></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-5"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-6"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-7"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-8"></a>
+                </div>
+            </div>   
+    </section> -->
+
+
+
+    <section id="photos" class="section photos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Photos</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="grid">
+                        
+                        <li class="grid-item grid-item-sm-6">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-1.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-3.jpg">
+                        </li>
+                    
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-5.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-6.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-7.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-8.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-3.jpg">
+                        </li>
+                    </ul>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="site-info">No rights reserved <br> by <a href="http://abhishekmadhu.github.io">Abhishek Madhu</a></p>
+                    <ul class="social-block">
+                        <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                        <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                        <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                        <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- script -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
