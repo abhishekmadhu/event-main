@@ -253,7 +253,7 @@ ul li {
 /* 
  * 4.0 Navigation
  */
-.navbar-custom {
+/*.navbar-custom {
   border: 0;
   margin: 0;
   padding-top: 10px;
@@ -294,7 +294,7 @@ ul li {
   padding: 0 !important;
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
-}
+}*/
 
 .site-branding {
   float: left;
