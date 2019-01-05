@@ -13,7 +13,7 @@ $(window).load(function(){
 function handleTopNavAnimation() {
 	var top=$(window).scrollTop();
 
-	if(top>1000){
+	if(top>700){
 		$('#site-nav').removeClass('transparent'); 
 	}
 	else{
