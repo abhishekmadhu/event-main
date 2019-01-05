@@ -10,8 +10,8 @@ function displayPreviousPhoto() {
 }
 
 var photos = [], y = -1;
-photos[0] = "image4.jpg";
-photos[1] = "image5.jpg";
+photos[0] = "image3.jpg";
+photos[1] = "image4.jpg";
 photos[2] = "image6.jpg";
 photos[3] = "image7.jpg";
 photos[4] = "image8.jpg";
@@ -48,7 +48,7 @@ function displayPreviousImage() {
 
 function startTimer() {
     setInterval(displayNextImage, 7000);
-    setInterval(displayNextPhoto, 3000);
+    // setInterval(displayNextPhoto, 3000);
 }
 
 var images = [], x = -1;
