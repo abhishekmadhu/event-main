@@ -16,8 +16,8 @@
 }
 
 .scrolling-image-gallery{
-	height: 100%;
-	width: 100%;
+	height: 30vh;
+	width: 45vh;
 	border: 1px double black;
 	background-color: lightgray;
 }
@@ -31,10 +31,8 @@
 * BANNER BG
 */
 
-#banner-bg{
+.services{
 	background-color: #ed4315;
-	height: 100vh;
-
 }
 
 .service-icon-holder{
