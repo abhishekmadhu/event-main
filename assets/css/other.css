@@ -32,11 +32,19 @@ body{
 */
 
 #banner-bg{
-	background-color: #ed6540;
-	height: 70vh;
+	background-color: #ed4315;
+	height: 65vh;
 
 }
 
-#banner-bg.service-icon-holder{
-	color: red;
+.service-icon-holder{
+	vertical-align: center;
+	text-align: center;
+	color: white;
+	font-size: 130px;
+	margin-top: 10%;
+}
+
+.insider-p{
+	font-size: 28px;
 }
