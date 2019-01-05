@@ -1,25 +1,35 @@
 function displayNextPhoto(){
 	y = (y === photos.length - 1) ? 0 : y + 1;
-	document.getElementById("image-to-be-changed").src = photos[x];
+	document.getElementById("image-to-be-changed").src = photos[y];
 }
 
 function displayPreviousPhoto() {
 	// body...
 	y = (y <= 0) ? photos.length - 1 : y - 1;
-	document.getElementById("image-to-be-changed").src = photos[x];
+	document.getElementById("image-to-be-changed").src = photos[y];
 }
 
 var photos = [], y = -1;
-photos[0] = "image1.jpg";
-photos[1] = "image2.jpg";
-photos[2] = "image3.jpg";
+photos[0] = "image4.jpg";
+photos[1] = "image5.jpg";
+photos[2] = "image6.jpg";
+photos[3] = "image7.jpg";
+photos[4] = "image8.jpg";
 
-$("#right-arrow-two").click(function() {
-    displayNextPhoto();
+$(document).ready(function(){
+	$("#right-arrow-two").click(function() {
+		// alert("Clicked");
+	    displayNextPhoto();
+	});
+});
+$(document).ready(function(){
+	$("#right-arrow-one").click(function() {
+	    displayPreviousPhoto();
+	});
 });
 
-$("#right-arrow-one").click(function() {
-    displayPreviousPhoto();
+$(document).ready(function(){
+	setInterval(displayNextPhoto, 3000);
 });
 
 /***************************************************************************/

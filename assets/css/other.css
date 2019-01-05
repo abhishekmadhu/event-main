@@ -26,3 +26,17 @@ body{
 	height: 100%;
 	width: 100%;
 }
+
+/*
+* BANNER BG
+*/
+
+#banner-bg{
+	background-color: #ed6540;
+	height: 40vh;
+	width: 100%;
+}
+
+#banner-bg.service-icon-holder{
+	color: red;
+}
