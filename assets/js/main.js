@@ -13,11 +13,11 @@ $(window).load(function(){
 function handleTopNavAnimation() {
 	var top=$(window).scrollTop();
 
-	if(top>10){
-		$('#site-nav').addClass('navbar-solid'); 
+	if(top>1000){
+		$('#site-nav').removeClass('transparent'); 
 	}
 	else{
-		$('#site-nav').removeClass('navbar-solid'); 
+		$('#site-nav').addClass('transparent');
 	}
 }
 

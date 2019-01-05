@@ -7,9 +7,9 @@
 	color: red;
 }
 
-body{
+/*body{
 	margin-top: 50px;
-}
+}*/
 
 .justify-center{
 	/*is centered with the inline align attribute*/
@@ -33,7 +33,7 @@ body{
 
 #banner-bg{
 	background-color: #ed4315;
-	height: 65vh;
+	height: 100vh;
 
 }
 
@@ -56,6 +56,9 @@ body{
 	min-height: 100vh;
 }
 
+
+
+/******************NAVBAR TRANSPARENT CLASS *******************/
  .transparent{
     border-width: 0px;
     -webkit-box-shadow: 0px 0px;
@@ -65,3 +68,7 @@ body{
     background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 50%);
     background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
 }
+
+/*nav{
+	margin-top: 10px;
+}*/
