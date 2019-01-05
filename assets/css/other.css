@@ -10,3 +10,19 @@
 body{
 	margin-top: 50px;
 }
+
+.justify-center{
+	/*is centered with the inline align attribute*/
+}
+
+.scrolling-image-gallery{
+	height: 100%;
+	width: 100%;
+	border: 1px double black;
+	background-color: lightgray;
+}
+
+#image-to-be-changed{
+	height: 100%;
+	width: 100%;
+}

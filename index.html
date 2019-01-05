@@ -15,33 +15,14 @@
     <link rel="stylesheet" href="assets/css/other.css">
     <!--  -->
 
-    <script type = "text/javascript">
-              function displayNextImage() {
-                  x = (x === images.length - 1) ? 0 : x + 1;
-                  document.getElementById("site-header").style.backgroundImage = images[x];
-              }
+    <script src="assets/js/other.js"></script>
 
-              function displayPreviousImage() {
-                  x = (x <= 0) ? images.length - 1 : x - 1;
-                  document.getElementById("site-header").style.backgroundImage = images[x];
-              }
-
-              function startTimer() {
-                  setInterval(displayNextImage, 5000);
-              }
-
-              var images = [], x = -1;
-              images[0] = "url(image1.jpg)";
-              images[1] = "url(image2.jpg)";
-              images[2] = "url(image3.jpg)";
-          </script>
-
-          <style type="text/css">
-            #img{
-              width: 100%;
-              height: 100vh;
-            }
-          </style>
+      <style type="text/css">
+        #img{
+          width: 100%;
+          height: 100vh;
+        }
+      </style>
 
     <style type="text/css">
       #site-header{
@@ -135,18 +116,24 @@
     <section id="about" class="section about">
             <div class="container">
                 <div class="row no-gutters">
-                    <div class="col-sm-4 ">
+                    <div class="col-sm-3 ">
                         
                     </div>
                     <div class="col-sm-4">
 
                         col1afkldjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjadsfkjaldkfjakldfjakldjf klsdfiadsfilsa dc asdfchsd hfcahsd fckjahs ch asjkdcfh asdf haskhf cakjhd fjahdfj ajh fkahs fkh askjfh akshf  a sdkjfh asdkhfasduhfsdhfjjasdkfljadsfj alidjif jakdljfklajasdfkjl;kjasdf;lkjadsfl;kjasdf;lkajdsf laskdjf lkajsd flkjasdfl kajsdf jasdfkj asldkfl kjadslkfjl kdjasf kjkl ajdsjf jalsdjf j a j asdjf ajdflj a;lkdsjf; aldkjf; alkjkfl jadljf akdjsf jds afklj;asdlkjf aklsd f kkldsjf jadjfkja;ljfljsdiofjaioewio jaiosdufawoi fe;idojf jjkj ljslaidufia; oifj;oaisdj fii;asdfj a;wfosajd ;fija;iwof
-                    </div><!-- /.col-sm-6 -->
+                    </div><!-- /.col-sm-4 -->
+
+                    <div class="col-sm-1">
+                        
+                    </div>
 
                     <div class="col-sm-4">
-
-                        scrolling images here?
-                    </div><!-- /.col-sm-6 -->
+                        <div class="scrolling-image-gallery">
+                            <img src="image1.jpg" id="image-to-be-changed">
+                        </div>
+                        
+                    </div><!-- /.col-sm-4 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </section>
