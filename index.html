@@ -66,7 +66,12 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a data-scroll href="#site-header">Home</a></li>
                 <li><a data-scroll href="#about">About</a></li>
-                <li><a data-scroll href="#new">What's New?</a></li>
+                <li id = "main" onmouseover = "funin()" onmouseout = "funout()" ><a data-scroll href="#new">What's New?</a>
+                	<ul class="sub-menu" id = "sm" style="display: none; background-color:black; padding:20px;">
+				            <li><a style="color: white; href="#">Upcoming Events</a></li>
+				            <li><a style="color: white; href="#">Past Events</a></li>
+      				</ul>
+                </li>
                 <li><a data-scroll href="#services">Services</a></li>
                 <li><a data-scroll href="#contact">Contact Us</a></li>
 
