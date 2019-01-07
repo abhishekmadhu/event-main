@@ -16,11 +16,10 @@
 }
 
 .scrolling-image-gallery{
-	height: 36vh;
-	width: 64vh;
+
+	width: 100%;
 	border: 1px double black;
 	background-color: lightgray;
-	padding: 10;
 }
 
 #image-to-be-changed{
