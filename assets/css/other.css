@@ -1,3 +1,7 @@
+html{
+	scroll-behavior: smooth;
+}
+
 .arrow-icon{
 	font-size: 50px;
 	margin: 5px;
