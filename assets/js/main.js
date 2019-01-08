@@ -1,5 +1,5 @@
 /*
- * Change Navbar color while scrolling
+ * Change Navbar color while scrolling (disabled)
 */
 
 $(window).scroll(function(){
