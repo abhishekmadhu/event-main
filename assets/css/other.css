@@ -121,6 +121,22 @@ html{
 }*/
 
 
+/*
+* CONTACT US
+*/
+
+#contact-us-header{
+	font-size: 2.2em;
+}
+
+#contact-us-body{
+	font-size: 1.3em;
+}
+
+
+
+
+
 /******************NAVBAR TRANSPARENT CLASS *******************/
  .transparent{
     border-width: 0px;
