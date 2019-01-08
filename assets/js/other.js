@@ -40,7 +40,7 @@ $(document).ready(function(){
 /***************************************************************************/
 
 /*   Header Image changer   */
-
+/*
 function displayNextImage() {
     x = (x === images.length - 1) ? 0 : x + 1;
     document.getElementById("site-header").style.backgroundImage = images[x];
@@ -59,6 +59,7 @@ function startTimer() {
 var images = [], x = -1;
 images[0] = "url(assets/images/backgrounds/header1.png)";
 images[1] = "url(assets/images/backgrounds/header2.jpg)";
+*/
 
 /****************************************************************************/
 
