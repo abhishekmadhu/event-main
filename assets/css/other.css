@@ -99,14 +99,15 @@ html{
 
 #whats-new{
 	min-height: 20vh;
-	background-color: black;
+	background-color: #49ccf4;
+	/*background-color: black;*/
 	text-align: center;
 	vertical-align: center;
 }
 
 
 .event-links{
-	background-color: #ff2638;
+	/*background-color: #ff2638;*/
 	color: white;
 	font-size: 1.8em;
 	text-align: center;
