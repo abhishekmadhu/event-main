@@ -36,15 +36,15 @@ html{
 */
 
 .services{
-	background-color: #ed4315;
+	background-color: #ffffff;
 	min-height: 100vh;
 }
 
 .service-icon-holder{
 	vertical-align: center;
 	text-align: center;
-	color: white;
-	font-size: 130px;
+	color: black;
+	font-size: 1.2em;
 	margin-top: 10%;
 }
 
@@ -60,8 +60,30 @@ html{
 }
 
 #our-story{
-	font-size: 1.5em;
+	font-size: 1em;
 }
+
+
+.atherton-holder{
+	width: 100%;
+}
+
+.atherton{
+	width: 100%;
+}
+
+
+/***********************************************************/
+/*Button styles*/
+.buttonstyle2{
+	background-color: #FFFFFF;
+	border-radius: 3px;
+	border: 2px solid #e83f1e;
+	color: #e83f1e;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
 
 /*.section{
 	min-height: 100vh;
