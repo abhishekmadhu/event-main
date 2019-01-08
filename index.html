@@ -67,13 +67,8 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a data-scroll href="#site-header">Home</a></li>
                 <li><a data-scroll href="#about">About</a></li>
-                <li id = "main" onmouseover = "funin()" onmouseout = "funout()" ><a data-scroll href="#new">What's New?</a>
-                	<ul class="sub-menu" id = "sm" style="display: none; background-color:black; padding:20px;">
-				            <li><a style="color: white; href="#">Upcoming Events</a></li>
-				            <li><a style="color: white; href="#">Past Events</a></li>
-      				</ul>
-                </li>
                 <li><a data-scroll href="#services">Services</a></li>
+                <li><a data-scroll href="#whats-new">What's New</a></li>
                 <li><a data-scroll href="#contact">Contact Us</a></li>
 
 
@@ -147,25 +142,26 @@
 
     <section id="about" class="section about" >
         <div class="container">
-
             <div class="row">
                 <div class="col">
-                    <h1>About Us</h1>
+                    <div class="container">
+                        <h1>About Us</h1>
+                    </div>
+                    
                 </div>
             </div>
 
             <div class="row">
                 <div class="col">
-                    <p>We are a <strong>youth run start-up</strong> organization in India with <strong>student body entities</strong> in process of expanding across major cities in India. We have one such <strong>established entity in Kolkata, West Bengal</strong> which is fully functional now.</p>
+                    <div class="container">
+                        <p>We are a <strong>youth run start-up</strong> organization in India with <strong>student body entities</strong> in process of expanding across major cities in India. We have one such <strong>established entity in Kolkata, West Bengal</strong> which is fully functional now.</p>
 
-                    <p>The Kolkata entity is also our flagship entity among <strong>many more coming up soon!</strong> At present we aim to successfully <strong>build a strong network of entities across cities</strong> to help us expand our impact. With the help of our entities we <strong>organize various events</strong> like workshops, summits, meetups, etc.</p>
+                        <p>The Kolkata entity is also our flagship entity among <strong>many more coming up soon!</strong> At present we aim to successfully <strong>build a strong network of entities across cities</strong> to help us expand our impact. With the help of our entities we <strong>organize various events</strong> like workshops, summits, meetups, etc.</p>
+                    </div>
+                    
                 </div>
             </div>
         </div>
-    </section>
-
-    <section id="whats-new">
-        
     </section>
 
     <section id="our-story" class="section our-story">
@@ -223,7 +219,10 @@
                 <div class="row">
                     <div class="col">
                         <div style="font-size: 30px; margin-top: 30px;">
-                            <strong>What Can We Do For You?</strong>
+                            <div class="container">
+                                <strong>What Can We Do For You?</strong>
+                            </div>
+                            
                         </div>
                     </div>
                     
@@ -264,11 +263,18 @@
     </section>
 
 
-    <section>
-        
-        
+    <section id="whats-new" class="whats-new">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 event-links">
+                    <a href="">Past Events</a>
+                </div>
+                <div class="col-lg-6 event-links">
+                    <a href="">Upcoming Events</a>
+                </div>
+            </div>
+        </div>
     </section>
-
 
 
 
