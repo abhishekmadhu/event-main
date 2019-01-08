@@ -10,11 +10,16 @@ function displayPreviousPhoto() {
 }
 
 var photos = [], y = -1;
-photos[0] = "image3.jpg";
-photos[1] = "image4.jpg";
-photos[2] = "image6.jpg";
-photos[3] = "image7.jpg";
-photos[4] = "image8.jpg";
+photos[0] = "assets/images/ourstory/image1.jpg";
+photos[1] = "assets/images/ourstory/image2.jpg";
+photos[2] = "assets/images/ourstory/image3.jpg";
+photos[3] = "assets/images/ourstory/image4.jpg";
+photos[4] = "assets/images/ourstory/image5.png";
+photos[5] = "assets/images/ourstory/image6.jpg";
+photos[6] = "assets/images/ourstory/image7.jpg";
+photos[7] = "assets/images/ourstory/image9.jpg";
+photos[8] = "assets/images/ourstory/image10.jpg";
+
 
 $(document).ready(function(){
 	$("#right-arrow-two").click(function() {
