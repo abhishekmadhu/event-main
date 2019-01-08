@@ -10,7 +10,7 @@ function displayPreviousPhoto() {
 }
 
 var photos = [], y = -1;
-photos[0] = "assets/images/ourstory/image1.jpg";
+photos[0] = "assets/images/ourstory/image10.jpg";
 photos[1] = "assets/images/ourstory/image2.jpg";
 photos[2] = "assets/images/ourstory/image3.jpg";
 photos[3] = "assets/images/ourstory/image4.jpg";
@@ -18,7 +18,7 @@ photos[4] = "assets/images/ourstory/image5.png";
 photos[5] = "assets/images/ourstory/image6.jpg";
 photos[6] = "assets/images/ourstory/image7.jpg";
 photos[7] = "assets/images/ourstory/image9.jpg";
-photos[8] = "assets/images/ourstory/image10.jpg";
+photos[8] = "assets/images/ourstory/image1.jpg";
 
 
 $(document).ready(function(){
@@ -57,9 +57,8 @@ function startTimer() {
 }
 
 var images = [], x = -1;
-images[0] = "url(image1.jpg)";
-images[1] = "url(image2.jpg)";
-images[2] = "url(image3.jpg)";
+images[0] = "url(assets/images/backgrounds/header1.png)";
+images[1] = "url(assets/images/backgrounds/header2.jpg)";
 
 /****************************************************************************/
 

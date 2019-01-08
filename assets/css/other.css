@@ -22,7 +22,7 @@ html{
 .scrolling-image-gallery{
 
 	width: 100%;
-	border: 1px double black;
+	border: 5px double lightgray;
 	background-color: lightgray;
 }
 
@@ -64,6 +64,13 @@ html{
 }
 
 
+#our-story-heading{
+	color: red;
+	align-content: right;
+	margin-left: 10%;
+	font-size: 2.2em;
+}
+
 .atherton-holder{
 	width: 100%;
 }
@@ -82,6 +89,7 @@ html{
 	color: #e83f1e;
 	font-size: 1.2em;
 	font-weight: 500;
+	margin: 5%;
 }
 
 
@@ -104,3 +112,4 @@ html{
 /*nav{
 	margin-top: 10px;
 }*/
+
