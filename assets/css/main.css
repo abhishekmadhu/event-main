@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  color: #4e4e4e;
+  color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -56,19 +56,11 @@ ul li {
 
 body {
   font-family: 'Lato', sans-serif;
-  background: #353535;
+  background: white;
   color: #FFF;
 }
 .jumbotron h1 {
   color: #353535;
-}
-footer {
-  margin-bottom: 0 !important;
-  margin-top: 80px;
-}
-footer p {
-  margin: 0;
-  padding: 0;
 }
 span.icon {
   margin: 0 5px;
