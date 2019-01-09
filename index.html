@@ -16,23 +16,31 @@
     <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/other.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
     <!--  -->
 
     
 
     <style type="text/css">
+    	@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Thasadith');
+
         #img{
             width: 100%;
             height: 100vh;
         }
+        #site-header{
+        width: 100%;
+        height: 100vh;
+      }
     </style>
-
+<!-- 
     <style type="text/css">
       #site-header{
         width: 100%;
         height: 100vh;
       }
-    </style>
+    </style> -->
 
 </head>
 
@@ -54,7 +62,7 @@
               <span class="icon-bar"></span>
             </button>
             <!-- <a class="navbar-brand" href="#"><img id="logo" src="https://image.flaticon.com/icons/svg/61/61624.svg"></img></a> -->
-            <a class="navbar-brand" href="#"><strong>EVENTS&BYOND</strong></a>
+            <a class="navbar-brand" href="#" ><strong>EVENTS&BYOND</strong></a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -67,9 +75,10 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a data-scroll href="#site-header">Home</a></li>
                 <li><a data-scroll href="#about">About</a></li>
-                <li><a data-scroll href="#services">Services</a></li>
+                <li><a data-scroll href="#services">Objectives</a></li>
                 <li><a data-scroll href="#whats-new">What's New</a></li>
-                <li><a data-scroll href="#contact-us">Contact Us</a></li>
+                <li><a data-scroll href="https://docs.google.com/forms/d/e/1FAIpQLSdUB16k2mm1O5E23U6tze5Y3Mp2g0IgVPlUzLUhe52ywqNr9Q/viewform">Join Us</a></li>
+                <li><a data-scroll href="https://docs.google.com/forms/d/e/1FAIpQLSf0EuSIOVhbc9SmD2hBRIKt2C3-Y5_cNg2S9fhlqaveRAtdMQ/viewform?vc=0&c=0&w=1" target="_blank">Contact Us</a></li>
 
 
 <!-- 
@@ -99,11 +108,11 @@
     <header id="site-header" class="site-header valign-center"> 
         <div class="intro">
 
-            <h2>EVENTS & BYOND</h2>
+            <h1 style="font-family: Thasadith;">EVENTS & BYOND</h2>
             
-            <h1>AN ASAP TECHNOLOGIES VENTURE</h1>
+            <h2 style="font-family: Lato">AN ASAP TECHNOLOGIES VENTURE</h1>
             
-            <p>THE FUTURE BELONGS TO THOSE WHO BELIEVE IN THE BEAUTY OF THEIR DREAMS</p>
+            <p style="font-family: Montserrat">THE FUTURE BELONGS TO THOSE WHO BELIEVE IN THE BEAUTY OF THEIR DREAMS</p>
             
             <!-- <a class="btn btn-white" data-scroll href="#registration">Register Now</a> -->
 
@@ -112,11 +121,21 @@
                 <i class="ion-arrow-right-b arrow-icon" onclick="displayNextImage()"></i>
             </div> -->
             <div id="salutation">
+            	<div class="row">
+    <!-- <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button victoria-one">Sign up</a> </div>  -->
+    <!-- <div class="col-md-3 col-sm-3 col-xs-6"> <a  class="btn btn-sm animated-button victoria-two" href="#about">Learn More</a> </div> -->
+    <!-- <div class="col-md-3 col-sm-3 col-xs-6"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUB16k2mm1O5E23U6tze5Y3Mp2g0IgVPlUzLUhe52ywqNr9Q/viewform" class="btn btn-sm animated-button victoria-three">Register</a> </div> -->
+    <!-- <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button victoria-four">Learn more</a> </div> -->
+  </div>
 
-                <a href="#about">
-                    <button class="btn buttonstyle2 samebutton">About Us</button>
+               <!--  <a class="semi-transparent-button" href="#about">
+                    <button >About Us</button>
                 </a>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUB16k2mm1O5E23U6tze5Y3Mp2g0IgVPlUzLUhe52ywqNr9Q/viewform"><button class="btn buttonstyle2 samebutton">Join Us</button></a>    
+                <a class="semi-transparent-button" href="https://docs.google.com/forms/d/e/1FAIpQLSdUB16k2mm1O5E23U6tze5Y3Mp2g0IgVPlUzLUhe52ywqNr9Q/viewform"><button >Join Us</button></a>     -->
+
+               <!--  <button class="btn btn-primary text-center" id="quote-button">New Quote</button> -->
+        	<!-- <button class="btn btn-primary text-center" id="twitter-button"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</button> -->
+
             </div>
         
         </div>
@@ -156,7 +175,7 @@
                     <div class="container">
                         <p>We are a <strong>youth run start-up</strong> organization in India with <strong>student body entities</strong> in process of expanding across major cities in India. We have one such <strong>established entity in Kolkata, West Bengal</strong> which is fully functional now.</p>
 
-                        <p>The Kolkata entity is also our flagship entity among <strong>many more coming up soon!</strong> At present we aim to successfully <strong>build a strong network of entities across cities</strong> to help us expand our impact. With the help of our entities we <strong>organize various events</strong> like workshops, summits, meetups, etc.</p>
+                        <p>The Kolkata entity is also our flagship entity among <strong>many more coming up soon!</strong> At present we aim to successfully <strong>build a strong network of entities across cities</strong> to help us expand our impact. With the help of our entities we <strong>organize various events</strong> like workshops, summits, youth connects, etc.</p>
 			    <div class="row">
                 <div class="col">
                     <div class="container">
@@ -214,7 +233,8 @@
                 <div class="col-sm-1"></div>
                 <div class="col-sm-5">
                     <div>
-                        <button class="buttonstyle2">Let's work together ></button>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUB16k2mm1O5E23U6tze5Y3Mp2g0IgVPlUzLUhe52ywqNr9Q/viewform"><button class="buttonstyle2" a>Let's work together ></button></a>
+                        
                     </div>
                 </div>
                 <div class="col-sm-1"></div>
@@ -232,8 +252,8 @@
                 <div class="row">
                     <div class="col">
                         <div style="font-size: 30px; margin-top: 30px;">
-                            <div class="container">
-                                <strong>Our Design Process</strong>
+                            <div class="container" >
+                                <h1 style="font-family: Montserrat"><strong>Our Design Process</strong>	</h1>
                             </div>
                             
                         </div>
@@ -248,7 +268,7 @@
                             <img src="assets/images/atherton/build.png" class="atherton">
                         </div>
                         
-                        <p class="insider-p">Building a better society</p>
+                        <h3 style="font-family: Montserrat" class="insider-p">Building A Better Society</h3>
                     </div>
                         
                     <div class="col-sm-4 service-icon-holder">
@@ -256,7 +276,7 @@
                         <div class="atherton-holder">
                             <img src="assets/images/atherton/empower.png" class="atherton">
                         </div>
-                        <p class="insider-p">Prioritizing youth empowerment</p>
+                        <h3 style="font-family: Montserrat" class="insider-p">Prioritizing Youth Empowerment</h3>
                     </div>
                     
                     <div class="col-sm-4 service-icon-holder">
@@ -264,7 +284,7 @@
                         <div class="atherton-holder">
                             <img src="assets/images/atherton/impact.png" class="atherton">
                         </div>
-                        <p class="insider-p">Creating an Impact</p>
+                        <h3 style="font-family: Montserrat" class="insider-p">Creating An Impact</h3>
                     </div>
 
 
@@ -305,9 +325,13 @@
         </a>
     </section>
 
+<!-- I CAN HEAR YOU 
+	MAI BOL RAHA HU
+	AWAAZ AA RAHI HAI?
+	-->
 
-    <section id="contact-us" class="section contact-us">
-        <div class="container">
+    <!-- <section id="contact-us" class="section contact-us"> -->
+        <!-- <div class="container">
             <div id="contact-us-header">
                 Contact Us    
             </div>
@@ -324,22 +348,23 @@
                 </div>    
             </div>
             
-        </div>
-    </section>
+        </div> -->
 
+<!--         <div class="row jumbotron">
+        	<div class="container">
+        		<div id="contact-us-header">
+                	Contact Us    
+            	</div>
 
+            	<h3 class="col-lg-12">
+                	<i class="fab fa-wpforms btn btn-success"></i> Fill out this <a herf="https://docs.google.com/forms/d/e/1FAIpQLSf0EuSIOVhbc9SmD2hBRIKt2C3-Y5_cNg2S9fhlqaveRAtdMQ/viewform?vc=0&c=0&w=1" target="_blank">Form</a>
+                </h3>
+        	</div>
 
+        </div>   -->
 
-
-
-
-
-
-
-
-
-
-
+        
+    <!-- </section> -->
 
 
 
@@ -352,10 +377,10 @@
                 <div class="col-md-12">
                     <p class="site-info">All rights reserved by<br><a href="http://abhishekmadhu.github.io">Web Developement Team</a></p>
                     <ul class="social-block">
-                        <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                        <!-- <li><a href=""><i class="ion-social-twitter"></i></a></li> -->
                         <li><a href="https://www.facebook.com/EventsAndByond/"><i class="ion-social-facebook"></i></a></li>
                         <li><a href="https://www.linkedin.com/company/events-byond/"><i class="ion-social-linkedin-outline"></i></a></li>
-                        <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                        <!-- <li><a href=""><i class="ion-social-googleplus"></i></a></li> -->
                     </ul>
                 </div>
             </div>
